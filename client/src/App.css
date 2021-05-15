@@ -1,0 +1,337 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.buttons {
+  display: inline-block;
+}
+
+.button {
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  margin: 40px;
+}
+
+.addButton {
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  margin: 40px;
+}
+
+.edit_delete {
+  display: inline;
+}
+
+.edit_delete_ul {
+  background-color: #ffffff;
+  display: inline-flex;
+}
+
+.LoginPage {
+  text-align: center;
+}
+
+.Login-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.Title {
+  font-size: 80px;
+}
+
+.EmailLabel {
+  margin-bottom: 20px;
+}
+
+.PasswordLabel {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.SignUpPage {
+  text-align: center;
+}
+
+.SignUp-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.PropManaAfterSign {
+  text-align: center;
+}
+
+.Page_Name {
+  height: 60px;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.Info_Page_Split {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.PropMana_menu {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+.display_item {
+  width: 100%;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border-spacing: 50px 0;
+}
+
+.display {
+  flex-basis: 80%;
+}
+
+.table {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  margin-right: 0px;
+}
+
+.topOffset {
+  margin-top: 100px;
+}
+
+.leftOffset {
+  margin-left: 160px;
+}
+
+.buttonUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 24px;
+  overflow: hidden;
+  background-color: #ffffff;
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  display: block;
+}
+
+.buttonSign {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.PropMana_option {
+  width: 150px;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  top: 50%;
+  left: 0;
+  display: block;
+}
+
+.buttonSign {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.RegProcess {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.RegProcess-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+label {
+  display: block;
+}
+
+.registerButton {
+  display: inherit;
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 230px;
+}
+
+/************************************************************/
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(66, 103, 178); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 40px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #534d4d;
+}
+
+/* Style page content */
+.main {
+  margin-left: 130px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+tr.spaceUnder > td {
+  padding-bottom: 4em;
+}
+
+/***************************CSS for the new format of submeter invoce PDF**************************************/
+
+table.underline {
+  border-bottom: 1px solid #000000;
+  border-spacing: 2px;
+  font-size: 13px;
+  table-layout: fixed ;
+  width: 44% ;
+}
+.s {
+  border: 0px solid black;
+}
+.sbbb {
+  width: 70%;
+}
+
+
+
+.unbolden {
+  font-weight: normal;
+  padding: 0 20px;
+  font-size: 10px;
+}
+
+.unbolden2 {
+  font-weight: normal;
+  padding: 0 40px;
+  font-size: 10px;
+}
+
+.unbolden3 {
+  font-weight: normal;
+  padding: 0 50px;
+  font-size: 10px;
+}
+
+.unbolden4 {
+  font-weight: normal;
+  padding: 0 70px;
+  font-size: 10px;
+}
+
+.unbolden5 {
+  font-weight: normal;
+  padding: 0 1px;
+  font-size: 10px;
+}
+
+.topline {
+  border-top: 1px solid #000000;
+}
+
+.top_and_bottom_line {
+  border-top: 1px solid #000000;
+  padding-bottom: 50%;
+}
+
+.meter_top_and_bottom_line {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+/***************************CSS for the new format of meter invoce PDF**************************************/
+
+.place_in_center {
+  padding-left: 5%;
+}
+.small {
+  font-size: 10px;
+}
+
+.enclose {
+  padding-bottom: 30%;
+}
+
+.amt {
+  border-top: 1px solid #000000;
+  padding-right: 0px;
+}
